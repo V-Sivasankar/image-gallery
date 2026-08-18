@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Gallery from "./components/Gallery";
@@ -35,9 +35,9 @@ function App() {
                       Explore the world through beautiful images.
                     </p>
 
-                    <a href="/gallery" className="explore-btn">
+                    <Link to="/gallery" className="explore-btn">
                       Explore Gallery →
-                    </a>
+                    </Link>
 
                   </div>
 
